@@ -197,23 +197,23 @@ p {
   position: relative;
   overflow: hidden;
   margin-bottom: 2px;
+  color: #4b6a78;
 }
 .main-wrapper .job-title {
-  color: #3F4650;
+  color: ##4b6a78;
   font-size: 16px;
   margin-top: 0;
   margin-bottom: 0;
   font-weight: 500;
 }
 .main-wrapper .time {
-  position: absolute;
+  position: relative;
   right: 0;
   top: 0;
-  color: #97AAC3;
+  color: #7b929c;
 }
 .main-wrapper .company {
   margin-bottom: 10px;
-  color: #97AAC3;
 }
 .main-wrapper .project-title {
   font-size: 16px;
@@ -295,9 +295,25 @@ p {
 /* Ex-Large devices (large desktops, 1200px and up) */
 
 a.company-header {
+  /* color: #545E6C; */
+  color: #3F4650;
+}
+
+a.publications {
   font-weight: 500;
 }
 
 p.resume-bold {
   font-weight: 500;
+}
+
+div.company {
+  font-size: 17px;
+  /* color: #545E6C; */
+  color: #3F4650;
+  font-weight: 500;
+}
+
+.progress-bar {
+  background-color: #4b6a78;
 }
