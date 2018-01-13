@@ -317,3 +317,7 @@ div.company {
 .progress-bar {
   background-color: #4b6a78;
 }
+
+img.profile {
+  border: 4px solid #74868e;
+}
